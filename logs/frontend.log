@@ -1,0 +1,16 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.16.17.188:8501
+
+INFO:frontend.api_client:Uploading file: ai _research.pdf
+ERROR:frontend.api_client:HTTP error 500: /api/upload/
+INFO:frontend.api_client:Uploading file: activity.docx
+INFO:frontend.api_client:Submitting query: hello...
+ERROR:frontend.api_client:HTTP error: 404
+INFO:frontend.api_client:Uploading file: ICT 1.docx
+INFO:frontend.api_client:Submitting query: hello baby...
+ERROR:frontend.api_client:HTTP error: 404
+INFO:frontend.api_client:Submitting query: hw...
+ERROR:frontend.api_client:HTTP error: 404

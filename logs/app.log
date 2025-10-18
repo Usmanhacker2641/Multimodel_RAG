@@ -1,0 +1,34 @@
+2025-10-15 20:10:11,166 - root - INFO - Incoming request: GET http://localhost:8000/api/health
+2025-10-15 20:10:11,167 - root - INFO - Response status: 404
+2025-10-15 20:10:30,022 - root - INFO - Incoming request: GET http://localhost:8000/api/health
+2025-10-15 20:10:30,023 - root - INFO - Response status: 404
+2025-10-15 20:10:57,676 - root - INFO - Incoming request: GET http://localhost:8000/health
+2025-10-15 20:10:57,680 - root - INFO - Response status: 200
+2025-10-15 20:13:40,778 - root - INFO - Incoming request: GET http://localhost:8000/
+2025-10-15 20:13:40,780 - root - INFO - Response status: 200
+2025-10-15 20:13:40,826 - root - INFO - Incoming request: GET http://localhost:8000/favicon.ico
+2025-10-15 20:13:40,826 - root - INFO - Response status: 404
+2025-10-15 20:14:22,527 - root - INFO - Incoming request: POST http://localhost:8000/api/api/upload/
+2025-10-15 20:14:22,528 - root - INFO - Response status: 404
+2025-10-16 22:24:49,303 - root - INFO - Incoming request: POST http://localhost:8000/api/upload/
+2025-10-16 22:24:49,314 - services.file_parser - WARNING - PyPDF2 not installed. Install with: pip install PyPDF2
+2025-10-16 22:24:49,315 - pipelines.full_pipeline - ERROR - Pipeline ingestion failed
+Traceback (most recent call last):
+  File "C:\Users\Dell\Downloads\Multimodel_RAG\pipelines\full_pipeline.py", line 42, in process
+    raise ValueError("No content to process")
+ValueError: No content to process
+2025-10-16 22:24:49,316 - backend.upload_routers - ERROR - Upload failed: 
+2025-10-16 22:24:49,318 - root - INFO - Response status: 500
+2025-10-16 22:25:59,043 - root - INFO - Incoming request: POST http://localhost:8000/query/
+2025-10-16 22:25:59,045 - root - INFO - Response status: 404
+2025-10-17 11:17:13,653 - root - INFO - Incoming request: POST http://localhost:8000/api/upload/
+2025-10-17 11:17:14,258 - services.embedder - INFO - Generating embeddings for 2 chunks
+2025-10-17 11:17:14,956 - services.embedder - INFO - Embeddings generated successfully. Shape: (2, 384)
+2025-10-17 11:17:14,964 - vectorstore.vector_manager - INFO - FAISS index and metadata saved to disk
+2025-10-17 11:17:14,964 - vectorstore.vector_manager - INFO - Added 2 documents to FAISS
+2025-10-17 11:17:14,965 - services.dbscan_category - INFO - Clustering 2 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:17:14,975 - services.dbscan_category - INFO - Found 0 clusters and 2 noise points
+2025-10-17 11:17:14,976 - services.dbscan_category - INFO - Calculated centroids for 0 clusters
+2025-10-17 11:17:14,980 - root - INFO - Response status: 200
+2025-10-17 11:19:12,971 - root - INFO - Incoming request: POST http://localhost:8000/query/
+2025-10-17 11:19:12,972 - root - INFO - Response status: 404

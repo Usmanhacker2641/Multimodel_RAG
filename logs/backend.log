@@ -1,0 +1,226 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\Dell\\Downloads\\Multimodel_RAG']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6276] using WatchFiles
+2025-10-17 11:43:57,123 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:43:57,123 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:43:57,123 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:44:08,459 | INFO | services.embedder | Loading embedding model: all-MiniLM-L6-v2
+2025-10-17 11:44:08,459 | INFO | services.embedder | Loading embedding model: all-MiniLM-L6-v2
+2025-10-17 11:44:08,459 | INFO | services.embedder | Loading embedding model: all-MiniLM-L6-v2
+W1017 11:44:08.702000 3380 torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+2025-10-17 11:44:08,804 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2025-10-17 11:44:08,804 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2025-10-17 11:44:08,804 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2025-10-17 11:44:08,805 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-17 11:44:08,805 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-17 11:44:08,805 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-17 11:44:13,002 | INFO | services.embedder | Model loaded successfully. Embedding dimension: 384
+2025-10-17 11:44:13,002 | INFO | services.embedder | Model loaded successfully. Embedding dimension: 384
+2025-10-17 11:44:13,002 | INFO | services.embedder | Model loaded successfully. Embedding dimension: 384
+2025-10-17 11:44:14,160 | INFO | faiss.loader | Loading faiss with AVX512 support.
+2025-10-17 11:44:14,160 | INFO | faiss.loader | Loading faiss with AVX512 support.
+2025-10-17 11:44:14,160 | INFO | faiss.loader | Loading faiss with AVX512 support.
+2025-10-17 11:44:14,160 | INFO | faiss.loader | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-10-17 11:44:14,160 | INFO | faiss.loader | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-10-17 11:44:14,160 | INFO | faiss.loader | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-10-17 11:44:14,160 | INFO | faiss.loader | Loading faiss with AVX2 support.
+2025-10-17 11:44:14,160 | INFO | faiss.loader | Loading faiss with AVX2 support.
+2025-10-17 11:44:14,160 | INFO | faiss.loader | Loading faiss with AVX2 support.
+2025-10-17 11:44:14,189 | INFO | faiss.loader | Successfully loaded faiss with AVX2 support.
+2025-10-17 11:44:14,189 | INFO | faiss.loader | Successfully loaded faiss with AVX2 support.
+2025-10-17 11:44:14,189 | INFO | faiss.loader | Successfully loaded faiss with AVX2 support.
+2025-10-17 11:44:14,201 | WARNING | root | Pinecone not installed. Install with: pip install pinecone-client
+2025-10-17 11:44:14,201 | WARNING | root | Pinecone not installed. Install with: pip install pinecone-client
+2025-10-17 11:44:14,201 | WARNING | root | Pinecone not installed. Install with: pip install pinecone-client
+2025-10-17 11:44:14,217 | INFO | vectorstore.vector_manager | Loaded existing FAISS index from ./data/vectorstore\documents.faiss
+2025-10-17 11:44:14,217 | INFO | vectorstore.vector_manager | Loaded existing FAISS index from ./data/vectorstore\documents.faiss
+2025-10-17 11:44:14,217 | INFO | vectorstore.vector_manager | Loaded existing FAISS index from ./data/vectorstore\documents.faiss
+2025-10-17 11:44:14,217 | INFO | vectorstore.vector_manager | Loaded existing FAISS index from ./data/vectorstore\documents.faiss
+2025-10-17 11:44:14,237 | INFO | vectorstore.vector_manager | Loaded 4 metadata entries
+2025-10-17 11:44:14,237 | INFO | vectorstore.vector_manager | Loaded 4 metadata entries
+2025-10-17 11:44:14,237 | INFO | vectorstore.vector_manager | Loaded 4 metadata entries
+2025-10-17 11:44:14,237 | INFO | vectorstore.vector_manager | Loaded 4 metadata entries
+2025-10-17 11:44:14,237 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:44:14,237 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:44:14,237 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:44:14,237 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:44:14,252 | INFO | vectorstore.vector_manager | Loaded existing FAISS index from ./data/vectorstore\documents.faiss
+2025-10-17 11:44:14,252 | INFO | vectorstore.vector_manager | Loaded existing FAISS index from ./data/vectorstore\documents.faiss
+2025-10-17 11:44:14,252 | INFO | vectorstore.vector_manager | Loaded existing FAISS index from ./data/vectorstore\documents.faiss
+2025-10-17 11:44:14,252 | INFO | vectorstore.vector_manager | Loaded existing FAISS index from ./data/vectorstore\documents.faiss
+2025-10-17 11:44:14,252 | INFO | vectorstore.vector_manager | Loaded existing FAISS index from ./data/vectorstore\documents.faiss
+2025-10-17 11:44:14,253 | INFO | vectorstore.vector_manager | Loaded 4 metadata entries
+2025-10-17 11:44:14,253 | INFO | vectorstore.vector_manager | Loaded 4 metadata entries
+2025-10-17 11:44:14,253 | INFO | vectorstore.vector_manager | Loaded 4 metadata entries
+2025-10-17 11:44:14,253 | INFO | vectorstore.vector_manager | Loaded 4 metadata entries
+2025-10-17 11:44:14,253 | INFO | vectorstore.vector_manager | Loaded 4 metadata entries
+2025-10-17 11:44:14,254 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:44:14,254 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:44:14,254 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:44:14,254 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:44:14,254 | INFO | services.aggregator_llm | Aggregator initialized (using stub mode to avoid heavy model loading)
+2025-10-17 11:44:14,277 | INFO | uvicorn.error | Started server process [3380]
+2025-10-17 11:44:14,277 | INFO | uvicorn.error | Waiting for application startup.
+2025-10-17 11:44:14,278 | INFO | backend | Backend startup complete (routes=20)
+2025-10-17 11:44:14,278 | INFO | uvicorn.error | Application startup complete.
+2025-10-17 11:45:16,193 | INFO | backend | Request start method=POST path=/api/upload/ client=127.0.0.1 request_id=f9f62d73-dcb5-4363-b891-4e05b653331c
+2025-10-17 11:45:16,195 | INFO | backend.upload | Processing file upload: filename=ai _research.pdf extension=.pdf size=513927
+2025-10-17 11:45:16,198 | INFO | backend.upload | Saved temporary file: path=C:\Users\Dell\AppData\Local\Temp\tmpnesj46tm.pdf size=513927
+2025-10-17 11:45:16,198 | INFO | backend.upload | Starting pipeline processing: input_type=file_path
+2025-10-17 11:45:16,200 | WARNING | services.file_parser | PyPDF2 not installed. Install with: pip install PyPDF2
+2025-10-17 11:45:16,200 | WARNING | services.file_parser | PyPDF2 not installed. Install with: pip install PyPDF2
+2025-10-17 11:45:16,200 | WARNING | services.file_parser | PyPDF2 not installed. Install with: pip install PyPDF2
+2025-10-17 11:45:16,200 | WARNING | services.file_parser | PyPDF2 not installed. Install with: pip install PyPDF2
+2025-10-17 11:45:16,200 | WARNING | services.file_parser | PyPDF2 not installed. Install with: pip install PyPDF2
+2025-10-17 11:45:16,200 | WARNING | services.file_parser | PyPDF2 not installed. Install with: pip install PyPDF2
+2025-10-17 11:45:16,201 | ERROR | pipelines.full_pipeline | Pipeline ingestion failed
+Traceback (most recent call last):
+  File "C:\Users\Dell\Downloads\Multimodel_RAG\pipelines\full_pipeline.py", line 42, in process
+    raise ValueError("No content to process")
+ValueError: No content to process
+2025-10-17 11:45:16,201 | ERROR | pipelines.full_pipeline | Pipeline ingestion failed
+Traceback (most recent call last):
+  File "C:\Users\Dell\Downloads\Multimodel_RAG\pipelines\full_pipeline.py", line 42, in process
+    raise ValueError("No content to process")
+ValueError: No content to process
+2025-10-17 11:45:16,201 | ERROR | pipelines.full_pipeline | Pipeline ingestion failed
+Traceback (most recent call last):
+  File "C:\Users\Dell\Downloads\Multimodel_RAG\pipelines\full_pipeline.py", line 42, in process
+    raise ValueError("No content to process")
+ValueError: No content to process
+2025-10-17 11:45:16,201 | ERROR | pipelines.full_pipeline | Pipeline ingestion failed
+Traceback (most recent call last):
+  File "C:\Users\Dell\Downloads\Multimodel_RAG\pipelines\full_pipeline.py", line 42, in process
+    raise ValueError("No content to process")
+ValueError: No content to process
+2025-10-17 11:45:16,201 | ERROR | pipelines.full_pipeline | Pipeline ingestion failed
+Traceback (most recent call last):
+  File "C:\Users\Dell\Downloads\Multimodel_RAG\pipelines\full_pipeline.py", line 42, in process
+    raise ValueError("No content to process")
+ValueError: No content to process
+2025-10-17 11:45:16,201 | ERROR | pipelines.full_pipeline | Pipeline ingestion failed
+Traceback (most recent call last):
+  File "C:\Users\Dell\Downloads\Multimodel_RAG\pipelines\full_pipeline.py", line 42, in process
+    raise ValueError("No content to process")
+ValueError: No content to process
+2025-10-17 11:45:16,202 | INFO | backend.upload | Pipeline processing complete: status=error
+2025-10-17 11:45:16,202 | ERROR | backend.upload | Pipeline returned error: No content to process
+2025-10-17 11:45:16,203 | INFO | backend | Request end method=POST path=/api/upload/ status=500 duration_ms=10.68 request_id=f9f62d73-dcb5-4363-b891-4e05b653331c
+2025-10-17 11:45:16,204 | INFO | uvicorn.access | 127.0.0.1:56857 - "POST /api/upload/ HTTP/1.1" 500
+2025-10-17 11:45:29,633 | INFO | backend | Request start method=POST path=/api/upload/ client=127.0.0.1 request_id=965d9d71-826b-4e7a-aadf-3edc611ff4c6
+2025-10-17 11:45:29,634 | INFO | backend.upload | Processing file upload: filename=activity.docx extension=.docx size=15726
+2025-10-17 11:45:29,635 | INFO | backend.upload | Saved temporary file: path=C:\Users\Dell\AppData\Local\Temp\tmpcf7pwwet.docx size=15726
+2025-10-17 11:45:29,636 | INFO | backend.upload | Starting pipeline processing: input_type=file_path
+2025-10-17 11:45:29,829 | INFO | services.embedder | Generating embeddings for 2 chunks
+2025-10-17 11:45:29,829 | INFO | services.embedder | Generating embeddings for 2 chunks
+2025-10-17 11:45:29,829 | INFO | services.embedder | Generating embeddings for 2 chunks
+2025-10-17 11:45:29,829 | INFO | services.embedder | Generating embeddings for 2 chunks
+2025-10-17 11:45:29,829 | INFO | services.embedder | Generating embeddings for 2 chunks
+2025-10-17 11:45:29,829 | INFO | services.embedder | Generating embeddings for 2 chunks
+2025-10-17 11:45:29,937 | INFO | services.embedder | Embeddings generated successfully. Shape: (2, 384)
+2025-10-17 11:45:29,937 | INFO | services.embedder | Embeddings generated successfully. Shape: (2, 384)
+2025-10-17 11:45:29,937 | INFO | services.embedder | Embeddings generated successfully. Shape: (2, 384)
+2025-10-17 11:45:29,937 | INFO | services.embedder | Embeddings generated successfully. Shape: (2, 384)
+2025-10-17 11:45:29,937 | INFO | services.embedder | Embeddings generated successfully. Shape: (2, 384)
+2025-10-17 11:45:29,937 | INFO | services.embedder | Embeddings generated successfully. Shape: (2, 384)
+2025-10-17 11:45:29,940 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:45:29,940 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:45:29,940 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:45:29,940 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:45:29,940 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:45:29,940 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:45:29,941 | INFO | vectorstore.vector_manager | Added 2 documents to FAISS
+2025-10-17 11:45:29,941 | INFO | vectorstore.vector_manager | Added 2 documents to FAISS
+2025-10-17 11:45:29,941 | INFO | vectorstore.vector_manager | Added 2 documents to FAISS
+2025-10-17 11:45:29,941 | INFO | vectorstore.vector_manager | Added 2 documents to FAISS
+2025-10-17 11:45:29,941 | INFO | vectorstore.vector_manager | Added 2 documents to FAISS
+2025-10-17 11:45:29,941 | INFO | vectorstore.vector_manager | Added 2 documents to FAISS
+2025-10-17 11:45:29,941 | INFO | services.dbscan_category | Clustering 2 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:45:29,941 | INFO | services.dbscan_category | Clustering 2 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:45:29,941 | INFO | services.dbscan_category | Clustering 2 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:45:29,941 | INFO | services.dbscan_category | Clustering 2 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:45:29,941 | INFO | services.dbscan_category | Clustering 2 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:45:29,941 | INFO | services.dbscan_category | Clustering 2 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Found 0 clusters and 2 noise points
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Found 0 clusters and 2 noise points
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Found 0 clusters and 2 noise points
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Found 0 clusters and 2 noise points
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Found 0 clusters and 2 noise points
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Found 0 clusters and 2 noise points
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:45:29,944 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:45:29,944 | INFO | backend.upload | Pipeline processing complete: status=success
+2025-10-17 11:45:29,945 | INFO | backend.upload | Upload successful: chunks=2
+2025-10-17 11:45:29,945 | INFO | backend | Request end method=POST path=/api/upload/ status=200 duration_ms=311.97 request_id=965d9d71-826b-4e7a-aadf-3edc611ff4c6
+2025-10-17 11:45:29,946 | INFO | uvicorn.access | 127.0.0.1:56862 - "POST /api/upload/ HTTP/1.1" 200
+2025-10-17 11:48:35,606 | INFO | backend | Request start method=POST path=/query/ client=127.0.0.1 request_id=1b0a5a54-c746-4f72-b230-662b2cd21eda
+2025-10-17 11:48:35,607 | INFO | backend | Request end method=POST path=/query/ status=404 duration_ms=0.70 request_id=1b0a5a54-c746-4f72-b230-662b2cd21eda
+2025-10-17 11:48:35,607 | INFO | uvicorn.access | 127.0.0.1:54680 - "POST /query/ HTTP/1.1" 404
+2025-10-17 11:49:01,518 | INFO | backend | Request start method=POST path=/api/upload/ client=127.0.0.1 request_id=90820be4-2d17-466c-b252-865417ec15de
+2025-10-17 11:49:01,519 | INFO | backend.upload | Processing file upload: filename=ICT 1.docx extension=.docx size=73388
+2025-10-17 11:49:01,520 | INFO | backend.upload | Saved temporary file: path=C:\Users\Dell\AppData\Local\Temp\tmpr1f6r97s.docx size=73388
+2025-10-17 11:49:01,520 | INFO | backend.upload | Starting pipeline processing: input_type=file_path
+2025-10-17 11:49:01,547 | INFO | services.embedder | Generating embeddings for 1 chunks
+2025-10-17 11:49:01,547 | INFO | services.embedder | Generating embeddings for 1 chunks
+2025-10-17 11:49:01,547 | INFO | services.embedder | Generating embeddings for 1 chunks
+2025-10-17 11:49:01,547 | INFO | services.embedder | Generating embeddings for 1 chunks
+2025-10-17 11:49:01,547 | INFO | services.embedder | Generating embeddings for 1 chunks
+2025-10-17 11:49:01,547 | INFO | services.embedder | Generating embeddings for 1 chunks
+2025-10-17 11:49:01,599 | INFO | services.embedder | Embeddings generated successfully. Shape: (1, 384)
+2025-10-17 11:49:01,599 | INFO | services.embedder | Embeddings generated successfully. Shape: (1, 384)
+2025-10-17 11:49:01,599 | INFO | services.embedder | Embeddings generated successfully. Shape: (1, 384)
+2025-10-17 11:49:01,599 | INFO | services.embedder | Embeddings generated successfully. Shape: (1, 384)
+2025-10-17 11:49:01,599 | INFO | services.embedder | Embeddings generated successfully. Shape: (1, 384)
+2025-10-17 11:49:01,599 | INFO | services.embedder | Embeddings generated successfully. Shape: (1, 384)
+2025-10-17 11:49:01,601 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:49:01,601 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:49:01,601 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:49:01,601 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:49:01,601 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:49:01,601 | INFO | vectorstore.vector_manager | FAISS index and metadata saved to disk
+2025-10-17 11:49:01,602 | INFO | vectorstore.vector_manager | Added 1 documents to FAISS
+2025-10-17 11:49:01,602 | INFO | vectorstore.vector_manager | Added 1 documents to FAISS
+2025-10-17 11:49:01,602 | INFO | vectorstore.vector_manager | Added 1 documents to FAISS
+2025-10-17 11:49:01,602 | INFO | vectorstore.vector_manager | Added 1 documents to FAISS
+2025-10-17 11:49:01,602 | INFO | vectorstore.vector_manager | Added 1 documents to FAISS
+2025-10-17 11:49:01,602 | INFO | vectorstore.vector_manager | Added 1 documents to FAISS
+2025-10-17 11:49:01,602 | INFO | services.dbscan_category | Clustering 3 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:49:01,602 | INFO | services.dbscan_category | Clustering 3 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:49:01,602 | INFO | services.dbscan_category | Clustering 3 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:49:01,602 | INFO | services.dbscan_category | Clustering 3 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:49:01,602 | INFO | services.dbscan_category | Clustering 3 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:49:01,602 | INFO | services.dbscan_category | Clustering 3 embeddings with eps=0.5, min_samples=3
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Found 0 clusters and 3 noise points
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Found 0 clusters and 3 noise points
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Found 0 clusters and 3 noise points
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Found 0 clusters and 3 noise points
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Found 0 clusters and 3 noise points
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Found 0 clusters and 3 noise points
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:49:01,604 | INFO | services.dbscan_category | Calculated centroids for 0 clusters
+2025-10-17 11:49:01,605 | INFO | backend.upload | Pipeline processing complete: status=success
+2025-10-17 11:49:01,605 | INFO | backend.upload | Upload successful: chunks=1
+2025-10-17 11:49:01,606 | INFO | backend | Request end method=POST path=/api/upload/ status=200 duration_ms=87.98 request_id=90820be4-2d17-466c-b252-865417ec15de
+2025-10-17 11:49:01,606 | INFO | uvicorn.access | 127.0.0.1:63475 - "POST /api/upload/ HTTP/1.1" 200
+2025-10-17 11:49:27,711 | INFO | backend | Request start method=POST path=/query/ client=127.0.0.1 request_id=5fc4825b-7233-4229-b5db-5d10a2ab5cac
+2025-10-17 11:49:27,711 | INFO | backend | Request end method=POST path=/query/ status=404 duration_ms=0.42 request_id=5fc4825b-7233-4229-b5db-5d10a2ab5cac
+2025-10-17 11:49:27,712 | INFO | uvicorn.access | 127.0.0.1:63480 - "POST /query/ HTTP/1.1" 404
+2025-10-17 11:50:20,565 | INFO | backend | Request start method=POST path=/query/ client=127.0.0.1 request_id=bf9fd905-93ca-48c0-8d4e-be1113e9ce44
+2025-10-17 11:50:20,566 | INFO | backend | Request end method=POST path=/query/ status=404 duration_ms=0.74 request_id=bf9fd905-93ca-48c0-8d4e-be1113e9ce44
+2025-10-17 11:50:20,566 | INFO | uvicorn.access | 127.0.0.1:54839 - "POST /query/ HTTP/1.1" 404
+forrtl: error (200): program aborting due to window-CLOSE event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FFF23ED43A7  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFF2535259D  Unknown               Unknown  Unknown
+ntdll.dll          00007FFF26C4AF78  Unknown               Unknown  Unknown
